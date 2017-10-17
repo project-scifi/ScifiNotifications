@@ -6,7 +6,7 @@
 <ul>
     <?php if (!empty($task['assignee_name']) || !empty($task['assignee_username'])): ?>
         <li>
-            Assignee: <b><?= $task['assignee_name'] ?: $task['assignee_username']) ?></b>
+            Assignee: <b><?= $task['assignee_name'] ?: $task['assignee_username'] ?></b>
         </li>
     <?php endif ?>
     <?php if ($task['date_due']): ?>
